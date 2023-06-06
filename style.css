@@ -573,7 +573,7 @@ footer {
 
     text-align: right;
 
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 @media (max-width: 576px) {
@@ -592,12 +592,86 @@ footer {
         font-size: 16px;
         line-height: 24px;
     }
+
     #four {
         margin-left: 0px;
         /* margin-left: 170px; */
     }
+
     #fife {
         margin-left: 0;
         /* margin-left: 250px; */
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    #bar {
+        padding-top: 18px;
+        padding-left: 160px;
+    }
+
+    .main1_text1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 20px;
+        color: #0F1528;
+    }
+
+    .main1_text2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 10px;
+        color: #0F1528;
+    }
+
+    .mini_cards {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 150px;
+        margin: auto;
+    }
+
+    .responsiv_s {
+        background: #C0579B;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px 68px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .responsive_fa {
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .respo_text1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* dark blue */
+
+        color: #0F1528;
     }
 }
